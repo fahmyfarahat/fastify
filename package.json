@@ -1,0 +1,29 @@
+{
+  "name": "full-stack-react-node-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "concurrently \"webpack serve\" \"nodemon server/index.js\""
+  },
+  "dependencies": {
+    "fastify": "^3",
+    "react": "^17",
+    "react-dom": "^17",
+    "styled-components": "5.3.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7",
+    "@babel/preset-env": "^7",
+    "@babel/preset-react": "^7",
+    "babel-loader": "^8",
+    "concurrently": "^7",
+    "css-loader": "^6",
+    "html-webpack-plugin": "^5",
+    "nodemon": "^1",
+    "style-loader": "^3",
+    "webpack": "^5",
+    "webpack-cli": "^4",
+    "webpack-dev-server": "^4"
+  },
+  "keywords": []
+}
